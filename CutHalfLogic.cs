@@ -54,9 +54,6 @@ namespace CutHalf
                 {
                     textViewAdapter.SetCaretPos(currentCaretLine, nextCaretColumnPosition);
                 }
-
-                // scroll window to see the carret
-                textViewAdapter.CenterLines(currentCaretLine, 1);
             }
         }
     }
